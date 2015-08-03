@@ -45,6 +45,7 @@
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lp-mr1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" />
+  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="mo" revision="lp-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
