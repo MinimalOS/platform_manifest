@@ -3,21 +3,21 @@
 
 <remote  name="aosp"
 		fetch="https://android.googlesource.com/" />
-<remote name="bb"
-                fetch="https://bitbucket.org/" />
+<remote  name="bb"
+        	fetch="https://bitbucket.org/" />
 <remote  name="cm"
 		fetch="https://github.com/CyanogenMod/" />
 <remote  name="gh"
 		fetch="https://github.com/" />
-<remote name="googlecode"
+<remote  name="googlecode"
 		fetch="https://code.google.com/p/" />
-<remote name="kernel"
+<remote  name="kernel"
 		fetch="git://git.kernel.org/pub/scm/" />
 <remote  name="mo"
 		fetch="https://github.com/MinimalOS/" />
 <remote  name="slim"
 		fetch="https://github.com/SlimRoms/" />
-<remote name="ste" 
+<remote  name="ste" 
 		fetch="https://github.com/XperiaSTE/" />
 <remote  name="th"
 		fetch="https://github.com/TeamHorizon/" />
@@ -54,8 +54,8 @@
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-12.1" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-12.1" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.1" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.1" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.1" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" />
@@ -66,8 +66,8 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="cm" revision="cm-12.1" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="cm" revision="cm-12.1" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bson" name="android_external_bson" remote="cm" revision="cm-12.1" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-12.1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -110,15 +110,15 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-12.1" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-12.1" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
-  <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/curl" name="android_external_curl" remote="cm" revision="cm-12.1" />
+  <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" remote="cm" revision="cm-12.1" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/dropbear" name="android_external_dropbear" remote="cm" revision="cm-12.1" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="cm-12.1" groups="pdk" />
@@ -149,10 +149,10 @@
   <project path="external/gmock" name="android_external_gmock" remote="cm" revision="cm-12.1"/>
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-12.1"/>
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
-  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
-  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" />
+  <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" />
+  <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" />
   <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-12.1"/>
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
@@ -166,8 +166,8 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs" remote="cm" revision="cm-12.1"/>
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
-  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" revision="cm-12.1" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
+  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" revision="cm-12.1" />
   <project path="external/jarjar" name="android_external_jarjar" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" />
@@ -187,7 +187,7 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-12.1" />
-  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.0" />
+  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.1" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-12.1" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
@@ -206,8 +206,8 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
-  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-12.1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-12.1" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/libppp" name="android_external_libppp" remote="cm" revision="cm-12.1" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
@@ -231,19 +231,19 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-12.1" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
-  <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-12.1" />
   <project path="external/lz4" name="android_external_lz4" remote="cm" revision="cm-12.1" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-12.1" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk-cw-fs" />
-  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk-cw-fs" />
   <project path="external/mtpd" name="platform/external/mtpd" groups="pdk-cw-fs" />
   <project path="external/nano" name="android_external_nano" remote="cm" revision="cm-12.1" />
@@ -266,17 +266,16 @@
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/openssl" name="android_external_openssl" remote="cm" revision="cm-12.1" />
-  <project path="external/pciutils" name="android_external_pciutils" remote="cm" revision="cm-12.1" />
-  <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" revision="cm-12.1" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
+  <project path="external/pciutils" name="android_external_pciutils" remote="cm" revision="cm-12.1" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
   <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-12.1" />
-  <!-- project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-12.1" /-->
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" revision="cm-12.1" />
   <project path="external/qemu" name="platform/external/qemu" groups="pdk-cw-fs" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" groups="pdk-cw-fs" />
   <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-12.1" />
@@ -318,11 +317,6 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <!--<project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" revision="cm-12.1" />
-  <project path="external/whispersystems/curve25519" name="android_external_whispersystems_curve25519-java" remote="cm" revision="cm-12.1" />
-  <project path="external/whispersystems/libtextsecure" name="android_external_whispersystems_libtextsecure-java" remote="cm" revision="cm-12.1" />
-  <project path="external/whispersystems/libaxolotl" name="android_external_whispersystems_libaxolotl-android" remote="cm" revision="cm-12.1" />
-  <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" revision="cm-12.1" /> -->
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
@@ -433,28 +427,20 @@
   <project path="libcore" name="android_libcore" groups="pdk" remote="mo" revision="lp-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
-  <!--  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-12.1" /> -->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="mo" revision="lp-mr1" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="mo" revision="lp-mr1" />
-  <!--  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="th" revision="lp-mr1" /> -->
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="mo" revision="lp-mr1" />
-  <!--  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="th" revision="lp-mr1" /> -->
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <!--  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-12.1" /> -->
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="mo" revision="lp-mr1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="mo" revision="lp-mr1" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="mo" revision="lp-mr1" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mo" revision="lp-mr1" />
-  <!--  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.1" /> -->
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
-  <!--  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="th" revision="lp-mr1" /> -->
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="mo" revision="lp-mr1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -462,9 +448,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <!--  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /> -->
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mo" revision="lp-mr1" />
@@ -474,9 +457,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <!-- <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="th" revision="lollipop" /> -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mo" revision="lp-mr1" />
-  <!--  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" /> -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -567,7 +548,6 @@
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <!-- project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" /> -->
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
@@ -576,16 +556,32 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <!-- Vendors -->
-  <!--  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-12.1" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-12.1" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lp-mr1" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="lp-mr1" /> -->
+  <!-- Minimal OS Vendor -->
   <project path="vendor/minimal" name="vendor_minimal" remote="mo" revision="lp-mr1" />
 
-  <!-- Manifest -->
+  <!-- Minimal OS Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="mo" revision="lp-mr1" />
+  
+  <!-- Commented out paths -->
+  <!-- <project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-12.1" />
+  <project path="external/whispersystems/curve25519" name="android_external_whispersystems_curve25519-java" remote="cm" revision="cm-12.1" />
+  <project path="external/whispersystems/libaxolotl" name="android_external_whispersystems_libaxolotl-android" remote="cm" revision="cm-12.1" />
+  <project path="external/whispersystems/libtextsecure" name="android_external_whispersystems_libtextsecure-java" remote="cm" revision="cm-12.1" />
+  <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" revision="cm-12.1" />
+  <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="th" revision="lollipop" />
+  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" /> -->
 
 </manifest>
