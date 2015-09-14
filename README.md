@@ -24,7 +24,7 @@ Install the Repository
 
 Enter the following to download the "repo" binary and make it executable:
 
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
 
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
@@ -39,25 +39,14 @@ For initializing repo use:
 
     repo init -u https://github.com/MinimalOS/platform_manifest.git -b lp-mr1
 
-Init core trees without any device/kernel/vendor:
 
-    repo init -u https://github.com/MinimalOS/platform_manifest.git -b lp-mr1	
+Init repo with extra tools (ADT/Eclipse):
 
-Init repo with all devices, kernels and vendors supported by Minimal:
-
-    repo init -u https://github.com/MinimalOS/platform_manifest.git -b lp-mr1 -g all,kernel,device,vendor
-or 	
-
-Init repo only for a particular device:
-
-    repo init -u https://github.com/MinimalOS/platform_manifest.git -b lp-mr1 -g all,-notdefault,<devicename>,<vendorname>
-
-for example, to init only trees needed to build i9300:
-
-    repo init -u https://github.com/MinimalOS/platform_manifest.git -b lp-mr1 -g all,-notdefault,i9300,samsung
+    repo init -u https://github.com/MinimalOS/platform_manifest.git -b lp-mr1 -g all,-notdefault,tools
 
 sync repo:
 
-    repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
+    repo sync -j$(# of CPUs x2)
 
-
+Happy Compiling!
+===========
