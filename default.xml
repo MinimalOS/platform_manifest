@@ -35,7 +35,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" groups="pdk" remote="mo" revision="lp-mr1" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="mo" revision="lp-mr1" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="mo" revision="lp-mr1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
